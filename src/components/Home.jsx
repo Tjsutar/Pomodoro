@@ -16,9 +16,9 @@ import { auth } from './config';
 
 function App() {
   const [activemode, setActivemode] = useState('Work Mode');
-  const [time, setTime] = useState(100);
+  const [time, setTime] = useState(1800);
   const [isActive, setisActive] = useState(false);
-  const [maxprogress, setMaxprogress] = useState(100);
+  const [maxprogress, setMaxprogress] = useState(1800);
 
   const [uname, setUname] = useState('');
 
