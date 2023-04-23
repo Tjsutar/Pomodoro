@@ -27,7 +27,7 @@ const Signin = () => {
           
           <VStack marginTop={'10'}>
             <Heading m={'10'}>Pomodoro</Heading>
-            <Text fontSize={'4xl'}>Hey there please Sign in...</Text>
+            <Text fontSize={['md','4xl']}>Hey there please Sign in...</Text>
           </VStack>
           <VStack h={'30vh'} justifyContent={'center'}>
             <Button onClick={handleClick} colorScheme={'orange'} bg={'orange'} shadow={'xl'}>
