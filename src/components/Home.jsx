@@ -77,7 +77,7 @@ function App() {
         <Heading m={'5'} fontWeight={'bold'}>
           Pomodoro
         </Heading>
-        <Text m={'10'} fontSize={['lg','xl']} >
+        <Text m={'10'} fontSize={'xl'} >
           Welcome {uname}
         </Text>
         <HStack>
