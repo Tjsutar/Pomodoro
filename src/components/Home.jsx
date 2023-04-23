@@ -16,9 +16,9 @@ import { auth } from './config';
 
 function App() {
   const [activemode, setActivemode] = useState('Work Mode');
-  const [time, setTime] = useState(1800);
+  const [time, setTime] = useState(1500);
   const [isActive, setisActive] = useState(false);
-  const [maxprogress, setMaxprogress] = useState(1800);
+  const [maxprogress, setMaxprogress] = useState(1500);
 
   const [uname, setUname] = useState('');
 
@@ -61,9 +61,9 @@ function App() {
   };
 
   const resetTimer = () => {
-    setTime(5);
+    setTime(1500);
     setActivemode('Work mode');
-    setMaxprogress(5);
+    setMaxprogress(1500);
   };
 
   const logout = () => {
